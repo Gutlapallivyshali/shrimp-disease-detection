@@ -1,0 +1,7 @@
+{
+    "test_images": 189,
+    "accuracy": 0.783068783068783,
+    "weighted_precision": 0.7881454726139969,
+    "weighted_recall": 0.783068783068783,
+    "weighted_f1_score": 0.7839572543993443
+}

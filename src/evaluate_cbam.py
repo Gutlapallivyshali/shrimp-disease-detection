@@ -83,7 +83,7 @@ model_path = (
     PROJECT_ROOT
     / "outputs"
     / "models"
-    / "convnext_tiny_cbam_focal_lr3e5_best.pth"
+    / "convnext_tiny_cbam_focal_reproduced_best.pth"
 )
 
 model.load_state_dict(

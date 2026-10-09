@@ -143,7 +143,7 @@ if __name__ == "__main__":
 
     optimizer = torch.optim.AdamW(
         model.parameters(),
-        lr=0.00003
+        lr=0.00001
     )
 
 
@@ -309,7 +309,7 @@ if __name__ == "__main__":
 
             model_path = (
                 MODEL_DIR
-                / "convnext_tiny_cbam_focal_lr3e5_best.pth"
+                / "convnext_tiny_cbam_focal_reproduced_best.pth"
             )
 
             torch.save(
@@ -343,5 +343,5 @@ if __name__ == "__main__":
 
     print(
         MODEL_DIR
-        / "convnext_tiny_cbam_focal_lr3e5_best.pth"
+        / "convnext_tiny_cbam_focal_reproduced_best.pth"
     )
