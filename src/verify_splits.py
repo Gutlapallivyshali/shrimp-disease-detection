@@ -14,15 +14,15 @@ def main():
     print("\n========== SPLIT VERIFICATION ==========\n")
 
     train_groups = set(
-        zip(train["class"], train["source_id"])
+        zip(train["class"], train["source_group"])
     )
 
     val_groups = set(
-        zip(val["class"], val["source_id"])
+        zip(val["class"], val["source_group"])
     )
 
     test_groups = set(
-        zip(test["class"], test["source_id"])
+        zip(test["class"], test["source_group"])
     )
 
     train_val = train_groups & val_groups
